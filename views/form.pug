@@ -1,0 +1,10 @@
+block content
+  h1 Create new message
+  p
+    div
+        form(method="POST" action="/new")
+            div
+                input#author(type="text", placeholder="your name", name="author")   
+            div 
+                input#message(type="text", placeholder="write your message", name="message") 
+            button(type="submit") Submit
